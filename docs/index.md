@@ -33,15 +33,11 @@ Sonatype Nexus is a Repository Server that exists in two flavors. Open Source (S
 
 ## Building
 
-To build this project from source, follow these steps:
+It's possible to build this module from source. Head over to the [Github Repository](https://github.com/steviecoaster/NexuShell) for the module then:
 
-1. Clone this repo and run `.\build.ps1 -Build` from the cloned folder
-2. Import the module with `Import-Module .\Output\NexuShell\NexuShell.psd1` from the cloned folder
-3. Discover the available commands with `Get-Command -Module NexuShell`
-4. Explore the available commands with `Get-Help`
-5. Start having fun!
-
-Once I have complete API coverage I'll publish this to the Gallery, and from there you'll be able to do `Install-Module NexuShell`, `Update-Module NexuShell` etc
+1. Clone the repository locally
+1. cd into the cloned folder
+1. Run `.\build.ps1 -Build`
 
 ## Installation
 
